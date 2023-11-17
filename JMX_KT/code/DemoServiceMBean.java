@@ -1,8 +1,8 @@
 public interface DemoServiceMBean {
 
-    void incrementCounter();
+    public void incrementCounter();
 
-    int getCounter();
+    public int getCounter();
 
 }
 
