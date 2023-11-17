@@ -49,3 +49,9 @@ java -javaagent:/Users/kritika/Desktop/JMX/jmx_prometheus_javaagent-0.19.0.jar=8
 ```shell
 jconsole
 ```
+
+## References
+
+1. https://www.oracle.com/technical-resources/articles/javase/jmx.html
+2. https://stackify.com/jmx/
+
