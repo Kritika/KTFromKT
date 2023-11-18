@@ -15,16 +15,6 @@ public class DemoService implements DemoServiceMBean {
 
     public static void main(String[] args) throws InterruptedException {
 
-        String jmxExporterPath = "/Users/kritika/Desktop/JMX/jmx_prometheus_javaagent-0.19.0.jar";
-        String configPath = "/Users/kritika/Desktop/JMX/config.yaml";
-        String jmxExporterOpts = String.format(
-                "-javaagent:%s=8080:%s",
-                jmxExporterPath,
-                configPath
-        );
-
-        // Print JMX Exporter options
-        System.out.println("JMX Exporter Options: " + jmxExporterOpts);
 
         // Create MBean server
         MBeanServer mbs = ManagementFactory.getPlatformMBeanServer();
